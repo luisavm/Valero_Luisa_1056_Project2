@@ -1,6 +1,6 @@
-#Project # 2
+# Project # 2
 
-###Thames River Anglers Association’s typograhy web
+### Thames River Anglers Association’s typograhy web
 
 
 It is goal to prepare me to use the style guide for Thames River Anglers Association’s web that apply for the midterm project. 
