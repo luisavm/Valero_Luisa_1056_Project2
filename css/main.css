@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/*css Document */
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4
+ {
+ margin: 0;
+ padding: 0;
+}
+
+img
+{
+ border: none;
+ margin: 0;
+ padding: 0;
+}
+
+body
+{/* Font styles from Google fonts */
+ font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ font-family: 'Merriweather','New Times Roman', serif;
+ color: #676565;
+ background-color: #ededed;
+}
+
+a:link, a:visited
+{
+ text-decoration:none;
+}
+
+a:hover, a:active
+{
+ text-decoration:none;
+}
+
+.hidden
+{
+ display: none;
+}
+
+.container
+{
+ width: 960px;
+ margin: 0 auto;
+ background-color: #fcfcfc;
+}
+
+/* Header */
+
+.mainHeader
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: #ffff;
+ /* shadow box */
+ /* -webkit-box-shadow: 0 10px 14px -14px #777;
+ -moz-box-shadow: 0 10px 14px -14px #777;
+ -o-box-shadow: 0 10px 14px -14px #777;
+ -khtml-box-shadow: 0 10px 14px -14px #777;
+ -ms-box-shadow: 0 10px 14px -14px #777; */
+ box-shadow: 0 10px 14px -14px #777;
+}
+
+#traaLogo
+{
+ width: 150px;
+ height: 139px;
+ margin-top: 20px;
+ margin-left: 150px;
+ margin-bottom: 20px;
+}
+
+.mainNav
+{
+ font-family:'Roboto', Helvetica, Arial, sans-serif;
+ font-weight: normal;
+ font-size: 12px;
+ margin-top: 67px;
+ margin-right: 120px;
+ margin-left: auto;
+ display: inline;
+ letter-spacing: 2px;
+ transition: 0.2s ease;
+ text-decoration: none;
+}
+
+
+.mainNav ul
+{
+ list-style-type: none;
+ padding: 0;
+}
+
+.mainNav ul li
+{
+ display: inline;
+ cursor: pointer;
+ margin-left: 25px;
+}
+
+
+.mainNav ul li a
+{
+ color: #636363;
+ padding: 5px;
+}
+
+.mainNav ul li a:hover
+{
+ font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ font-weight: normal;
+ color: #9abd4b;
+ font-size: 13px;
+ padding: 5px;
+ border-bottom: 2px solid #9abd4b;
+}
+
+.topTraa
+{
+ width: 649px;
+ height: 365px;
+ margin-top: 20px;
+ margin-left: 160px;
+ background: url(../images/beautiful_river.jpg) no-repeat bottom;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ /*Shadow box */
+ /* -webkit-box-shadow: 0 9px 9px -9px #777;
+ -moz-box-shadow: 0 9px 9px -9px #777;
+ -o-box-shadow: 0 9px 9px -9px #777;
+ -khtml-box-shadow: 0 9px 9px -9px #777;
+ -ms-box-shadow: 0 9px 9px -9px #777; */
+ box-shadow: 0 9px 9px -9px #777;
+}
+
+
+.topTraa p
+{
+  width: 708px;
+  height: 390px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  background-color: #9abd4b;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 28px;
+  /*Shadow box */
+  /* -webkit-box-shadow: 0 9px 9px -9px #777;
+  -moz-box-shadow: 0 9px 9px -9px #777;
+  -o-box-shadow: 0 9px 9px -9px #777;
+  -khtml-box-shadow: 0 9px 9px -9px #777;
+  -ms-box-shadow: 0 9px 9px -9px #777; */
+  box-shadow: 0 9px 9px -9px #777;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  /*Behind border */
+  z-index:-1;
+}
+
+#traa
+{
+ font-family: 'Merriweather','New Times Roman', serif;
+ color: #fff;
+ font-size: 50px;
+ letter-spacing: 2px;
+ text-align: center;
+ width: 500px;
+ margin-left: 80px;
+}
+
+.moreInfo
+{
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  background-color: #fff;
+  /*Shadow box */
+  /* -webkit-box-shadow: 0px 3px 15px #c9c9c9;
+  -moz-box-shadow: 0px 3px 15px #c9c9c9;
+  -o-box-shadow: 0px 3px 15px #c9c9c9;
+  -khtml-box-shadow: 0px 3px 15px #c9c9c9;
+  -ms-box-shadow: 0px 3px 15px #c9c9c9; */
+  box-shadow: 0px 3px 15px #c9c9c9;
+  width: 960px;
+  height: 895px;
+  margin-top: 210px;
+  margin-bottom: 80px;
+  margin-left: 158px;
+  position: relative;
+
+
+}
+
+
+.redFishes
+{
+  width: 500px;
+  height: 333px;
+  /*Shadow box */
+  /* -webkit-box-shadow: 0 9px 9px -9px #777;
+  -moz-box-shadow: 0 9px 9px -9px #777;
+  -o-box-shadow: 0 9px 9px -9px #777;
+  -khtml-box-shadow: 0 9px 9px -9px #777;
+  -ms-box-shadow: 0 9px 9px -9px #777; */
+  box-shadow: 0 9px 9px -9px #777;
+
+}
+
+.rightBox
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #676565;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: 250px;
+  width: 350px;
+  position: absolute;
+}
+
+.selectedBold
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #5d7132;
+  font-size: 16px;
+}
+
+
+.leftBox
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #676565;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 20px;
+  margin-top: 398px;
+  margin-left: -210px;
+  width: 350px;
+  position: absolute;
+
+}
+
+.troutFish
+{
+  width: 500px;
+  height: 266px;
+  margin-top: 350px;
+  margin-left: 10px;
+  /*Shadow box */
+  /* -webkit-box-shadow: 0 9px 9px -9px #777;
+  -moz-box-shadow: 0 9px 9px -9px #777;
+  -o-box-shadow: 0 9px 9px -9px #777;
+  -khtml-box-shadow: 0 9px 9px -9px #777;
+  -ms-box-shadow: 0 9px 9px -9px #777; */
+  box-shadow: 0 9px 9px -9px #777;
+}
+
+.river
+{
+  width: 500px;
+  height: 266px;
+  /* margin-left: 210px; */
+  margin-top: 630px;
+  margin-left:  -230px;
+  position: absolute;
+  /*Shadow box */
+  /* -webkit-box-shadow: 0 9px 9px -9px #777;
+  -moz-box-shadow: 0 9px 9px -9px #777;
+  -o-box-shadow: 0 9px 9px -9px #777;
+  -khtml-box-shadow: 0 9px 9px -9px #777;
+  -ms-box-shadow: 0 9px 9px -9px #777; */
+  box-shadow: 0 9px 9px -9px #777;
+
+}
+
+.rightBoxBottom
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #676565;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 20px;
+  margin-top: 670px;
+  margin-left: 250px;
+  width: 350px;
+  position: absolute;
+}
+
+.traaWork
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  align-items: center;
+}
+
+
+.levelsAndHands
+{
+  width: 400px;
+  height: 170px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.grassrootsLevel
+{
+  font-family: 'Merriweather','New Times Roman', serif;
+  font-size: 20px;
+  color: #9abd4b;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.descriptionLevels
+{
+  list-style-type: disc;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: 20px;
+
+}
+
+.desLevels
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #676565;
+  line-height: 28px;
+}
+
+
+.handsOnEnv
+{
+  font-family: 'Merriweather','New Times Roman', serif;
+  font-size: 20px;
+  color: #9abd4b;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-align: left;
+
+}
+
+#bolderTitle
+{
+  font-family: 'Merriweather','New Times Roman', serif;
+  font-size: 20px;
+  color: #9abd4b;
+  font-style: italic;
+}
+
+.levelsAndHands p
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #676565;
+  line-height: 27px;
+  margin-top: 20px;
+}
+
+.rainbowTrout
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #fff;
+    /*Shadow box */
+    /* -webkit-box-shadow: 0px 3px 15px #c9c9c9;
+    -moz-box-shadow: 0px 3px 15px #c9c9c9;
+    -o-box-shadow: 0px 3px 15px #c9c9c9;
+    -khtml-box-shadow: 0px 3px 15px #c9c9c9;
+    -ms-box-shadow: 0px 3px 15px #c9c9c9; */
+    box-shadow: 0px 3px 15px #c9c9c9;
+    width: 960px;
+    height: auto;
+    margin-top:550px;
+    margin-bottom: 80px;
+    margin-left: 158px;
+
+  }
+
+.rainbowTrout p
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #676565;
+  padding: 20px;
+  line-height: 27px;
+}
+
+.rainbowTroutFish
+{
+  font-family: 'Merriweather','New Times Roman', serif;
+  font-size: 20px;
+  color: #9abd4b;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+#sourceWiki
+{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #5d7132;
+}
